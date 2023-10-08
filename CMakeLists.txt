@@ -4,5 +4,5 @@ project(CPP)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(CPP
-        Class_Learn/Lesson_02.cpp
+        OpenJudge/BL_1000.cpp
 )
