@@ -8,6 +8,7 @@ int main() {
     int n;
     cin >> n;
 
+    // 循环读入数
     for (int i = 0; i < n; ++i) {
         int a;
         cin >> a;
@@ -18,6 +19,7 @@ int main() {
 }
 
 int Fib(int n) {
+    // 0或1时直接返回值
     if (n == 0) {
         return 0;
     } else if (n == 1) {
