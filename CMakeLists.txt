@@ -8,6 +8,6 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(CPP
-        Homework/07/07_03.cpp)
+        Homework/08/08_04.cpp)
 
 target_link_libraries(CPP ${OpenCV_LIBS})
